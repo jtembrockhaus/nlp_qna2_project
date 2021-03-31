@@ -38,7 +38,7 @@ To install the jupyter notebook we recommend following these steps:
 
 # How to use?
 
-**Important**
+**IMPORTANT**
 
 One parameter must be set in the beginning called `working_dir`. This parameter is the path to the saved root directory of the unzipped git repository.
 For example: "/content/drive/My Drive/Colab Notebooks/" if the user has uploaded it there.
@@ -46,9 +46,11 @@ For example: "/content/drive/My Drive/Colab Notebooks/" if the user has uploaded
 	working_dir = '/content/drive/My Drive/Colab Notebooks/NLP/'
 	working_dir_extern = r'/content/drive/My\ Drive/Colab\ Notebooks/NLP/' 
 
+**Rough outline**:
+
 All global parameters are clearly identifiable into their own menu settings within the notebook. There the user can specify which analysis pipeline should be peformed.
 For the srl classification we also included a neural network parameter settings list if the user whiches to further tweak the model. 
-Rough outline:
+
 	
 	1. Initilization
 		Set the Working Directory

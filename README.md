@@ -16,8 +16,13 @@ Jahan, Labiba, Geeticka Chauhan, and Mark A. Finlayson. *"A new approach to anim
 
 Because the codebase for both pipelines is too large in memory overhead and general code text we created one jupyter notebook for each pipeline. Both can be excuted individually:
 
-	1  Animacy Pipeline                => animacy_classification.ipynb
-	2. Semantic Role Labeling Pipeline => srl_classification.ipynb
+Animacy Pipeline:
+
+	animacy_classification.ipynb
+
+Semantic Role Labeling Pipeline:
+
+	srl_classification.ipynb
 
 Due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
 If the user wants to peform the preprocessing a global boolean value can be set within the jupyter notebooks. 

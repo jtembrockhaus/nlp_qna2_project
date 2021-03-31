@@ -9,7 +9,10 @@ The main drive behind this project is to study the impact of animacy information
 
 # Framework
 
-In general the framework of the codebase follows two publications:
+In general the framework of the codebase follows in parts two publications:
+
+Shi, Peng, and Jimmy Lin: *Simple bert models for relation extraction and semantic role labeling.*
+Jahan, Labiba, Geeticka Chauhan, and Mark A. Finlayson. *"A new approach to animacy detection."*
 
 The jupyter notebook needs sufficient GPU processing power thus we only tested it on google collab. Google collab allows the use of a GPU environment and therefore greatly increases the runtime.
 

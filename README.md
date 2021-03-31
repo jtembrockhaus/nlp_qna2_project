@@ -27,13 +27,14 @@ All needed packages are either pre installed in collab or will be installed into
 # Installation
 
 To install the jupyter notebook we recommend following these steps:
+
 	1. Download the entire compressed git repository. 
 	2. Decompress and uploaded it to your preferred location on your _google drive_. 
 	3. Access the notebook by going to : https://colab.research.google.com
 
 
 
-#How to use?
+# How to use?
 All usage steps are explained within the notebook itself but to give a rough guideline.
 
 To make the use of the notebook easy we divided the notebook into three segments, where each segment begins with global parameter settings. There the user can specify which analysis pipeline should be peformed.

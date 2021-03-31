@@ -14,9 +14,10 @@ In general the framework of the codebase follows in parts two publications:
 Shi, Peng, and Jimmy Lin: *Simple bert models for relation extraction and semantic role labeling.*\
 Jahan, Labiba, Geeticka Chauhan, and Mark A. Finlayson. *"A new approach to animacy detection."*
 
-Because the codebases for both pipelines animacy detection and semantic role classification are very large we split the jupyter notebooks into 
-two parts. Both notebooks can be excuted individually from each other.
+Because the codebase for both pipelines animacy detection and semantic role classification is to large in memory and simple code for one jupyter notebook we split them into two parts. Both can be excuted individually:
 
+	1  animacy_classification.ipynb
+	2. srl_classification.ipynb
 
 Due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
 If the user wants to peform the preprocessing a global boolean value can be set within the jupyter notebooks. 

@@ -47,6 +47,8 @@ If the user wants to do the preprocessing again, the python installation needs t
 	pickle
 	nltk
 	progressbar
+	os
+	xml
 
 # How to use?
 
@@ -92,8 +94,11 @@ Semantic Role Labeling:
 		...	
 		...
 
-For the preprocessing of the files, the scripts can be execute by the command
+**Preprocessing**
 
+For the preprocessing of the files, the scripts can be executed by the command
+
+	python CorpusCreation_SRL_CorpusCreation_SRL_RussianFairytales.py
 	python CorpusCreation_SRL_WallStreetJournalCorpus.py
 	
-A pickle file `data_dict_brown.pickle` similiar to the ones saved in /data/srl_detection/input/ will be saved in the working directory of the script. 
+A pickle file `data_dict_fairytaile_pre.pickle` or `data_dict_brown_pre.pickle` will be saved to /data/srl_detection/input/ 

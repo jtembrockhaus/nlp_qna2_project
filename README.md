@@ -58,7 +58,9 @@ One parameter must be set in the beginning called `working_dir`. This parameter 
 For example: "/content/drive/My Drive/Colab Notebooks/" if the user has uploaded it there.
 
 	working_dir = '/content/drive/My Drive/Colab Notebooks/'
-	working_dir_extern = r'/content/drive/My\ Drive/Colab\ Notebooks/' 
+	working_dir_extern = r'/content/drive/My\ Drive/Colab\ Notebooks/'
+	
+All steps are clearly explained within the notebooks.
 
 **Rough outline**:
 

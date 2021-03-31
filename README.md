@@ -60,7 +60,7 @@ For example: "/content/drive/My Drive/Colab Notebooks/" if the user has uploaded
 	working_dir = '/content/drive/My Drive/Colab Notebooks/'
 	working_dir_extern = r'/content/drive/My\ Drive/Colab\ Notebooks/'
 	
-All steps are clearly explained within the notebooks.
+All steps are documented within the notebooks.
 
 **Rough outline**:
 

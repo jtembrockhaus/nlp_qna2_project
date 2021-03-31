@@ -12,6 +12,7 @@ The main drive behind this project is to study the impact of animacy information
 In general the framework of the codebase follows in parts two publications:
 
 Shi, Peng, and Jimmy Lin: *Simple bert models for relation extraction and semantic role labeling.*
+
 Jahan, Labiba, Geeticka Chauhan, and Mark A. Finlayson. *"A new approach to animacy detection."*
 
 Due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
@@ -20,7 +21,7 @@ If the user wants to peform the preprocessing a global boolean value can be set 
 The jupyter notebook itself needs sufficient GPU processing power thus we only tested it on google collab. 
 Google collab allows the use of a GPU environment and therefore greatly increases the runtime. 
 
-All needed packages are either pre installed in collab or will be installed into environment when in use. 
+All packages are either preinstalled in collab or will be installed into the environment. 
 
 
 
@@ -43,26 +44,28 @@ To install the jupyter notebook we recommend following these steps:
 One parameter must be set in the beginning called `working_dir`. This parameter is the path to the saved root directory of the unzipped git repository.
 For example: "/content/drive/My Drive/Colab Notebooks/" if the user has uploaded it there.
 
-	working_dir = '/content/drive/My Drive/Colab Notebooks/NLP/'
-	working_dir_extern = r'/content/drive/My\ Drive/Colab\ Notebooks/NLP/' 
+	working_dir = '/content/drive/My Drive/Colab Notebooks/'
+	working_dir_extern = r'/content/drive/My\ Drive/Colab\ Notebooks/' 
 
 **Rough outline**:
 
 All global parameters are clearly identifiable into their own menu settings within the notebook. There the user can specify which analysis pipeline should be peformed.
-For the srl classification we also included a neural network parameter settings list if the user whiches to further tweak the model. 
+For the semantic role classification we also included a neural network parameter settings list if the user wishes to further tweak the model. 
 
 	
 	1. Initilization
 		Set the Working Directory
+		...
+		...
 	2. Animacy
-		Global parameter settings
+		Global Parameter Settings
 		...
 		...
 	3. SRL
-		Global parameter settings
+		Global Parameter Settings
 		...
 		...
-		Neural network settings
+		Neural Network Application
 		...	
 		...
 

@@ -5,7 +5,7 @@ with semantic information of the data. Semantic role label classification is a n
 
 # Motivation
 
-The main drive behind this project is to study the impact of animacy information on semantic role labeling and vice versa. While this project is not an exercise in accuracy boosting, different machine learning approaches towards animacy detection and neural network configurations towards semantic role labeling are evaluated best on their peformance to determine the best setting.
+The main drive behind this project is to study the impact of animacy information on semantic role labeling and vice versa. While this project is not an exercise in accuracy boosting, different machine learning approaches towards animacy detection and neural network configurations towards semantic role labeling are evaluated based on their peformance to determine the best setting.
 
 # Framework
 
@@ -18,10 +18,9 @@ Due to the high preprocessing overhead we created three python scripts which pef
 If the user wants to peform the preprocessing a global boolean value can be set within the jupyter notebook. 
 
 The jupyter notebook itself needs sufficient GPU processing power thus we only tested it on google collab. 
-Google collab allows the use of a GPU environment and therefore greatly increases the runtime. 
+Google collab allows the user to set a GPU environment which greatly increases runtime. 
 
 All packages are either preinstalled in collab or will be installed into the environment. 
-
 
 
 # Installation

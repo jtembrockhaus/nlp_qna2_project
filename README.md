@@ -14,10 +14,14 @@ In general the framework of the codebase follows in parts two publications:
 Shi, Peng, and Jimmy Lin: *Simple bert models for relation extraction and semantic role labeling.*\
 Jahan, Labiba, Geeticka Chauhan, and Mark A. Finlayson. *"A new approach to animacy detection."*
 
-Due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
-If the user wants to peform the preprocessing a global boolean value can be set within the jupyter notebook. 
+Because the codebases for both pipelines animacy detection and semantic role classification are very large we split the jupyter notebooks into 
+two parts. Both notebooks can be excuted individually from each other.
 
-The jupyter notebook itself needs sufficient GPU processing power thus we only tested it on google collab. 
+
+Due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
+If the user wants to peform the preprocessing a global boolean value can be set within the jupyter notebooks. 
+
+The jupyter notebooks both need sufficient GPU processing power thus we only tested it on google collab. 
 Google collab allows the user to set a GPU environment which greatly increases runtime. 
 
 All packages are either preinstalled in collab or will be installed into the environment. 
@@ -31,7 +35,7 @@ To install the jupyter notebook we recommend following these steps:
 
 	1. Download the entire compressed git repository. 
 	2. Decompress and upload it to your preferred location on your *google drive*. 
-	3. Access the notebook by going to : https://colab.research.google.com
+	3. Access the notebooks by going to : https://colab.research.google.com
 
 
 
@@ -47,10 +51,11 @@ For example: "/content/drive/My Drive/Colab Notebooks/" if the user has uploaded
 
 **Rough outline**:
 
-All global parameters are clearly identifiable into their own menu settings within the notebook. There the user can specify which analysis pipeline should be peformed.
-For the semantic role classification we also included a neural network parameter settings list if the user wishes to further tweak the model. 
+All global parameters are clearly identifiable into their own menu settings within the notebooks. There the user can specify which analysis pipeline should be peformed.
 
-	
+
+Animacy:
+
 	1. Initilization
 		Set the Working Directory
 		...
@@ -59,7 +64,18 @@ For the semantic role classification we also included a neural network parameter
 		Global Parameter Settings
 		...
 		...
-	3. SRL
+		
+
+For the semantic role classification we also included a neural network parameter settings list if the user wishes to further tweak the model. 
+
+Semantic Role Labeling: 
+
+
+	1. Initilization
+		Set the Working Directory
+		...
+		...
+	2. Semantic Role Labeling
 		Global Parameter Settings
 		...
 		...

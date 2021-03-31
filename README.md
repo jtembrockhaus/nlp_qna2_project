@@ -5,7 +5,7 @@ with semantic information of the data. Semantic role label classification is a N
 
 # Motivation
 
-The main drive behind this project is to study the impact of the animacy information on semantic role labeling and vice versa. While this project is not an exercise in accuracy boosting, different machine learning approaches towards animacy detection and neural network configurations towards semantic role labeling are evaluated based on their peformance to determine the best setting.
+The main drive behind this project is to study the impact of animacy information on semantic role labeling and vice versa. While this project is not an exercise in accuracy boosting, different machine learning approaches towards animacy detection and neural network configurations towards semantic role labeling are evaluated based on their peformance to determine the best setting.
 
 # Framework
 

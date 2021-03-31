@@ -15,20 +15,40 @@ Shi, Peng, and Jimmy Lin: *Simple bert models for relation extraction and semant
 Jahan, Labiba, Geeticka Chauhan, and Mark A. Finlayson. *"A new approach to animacy detection."*
 
 Due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
-If the user wants to peform the preprocessing a global boolean value can be set within the jupyter notebook. The jupyter notebook itself needs sufficient GPU processing power thus we only tested it on google collab. 
-Google collab allows the use of a GPU environment and therefore greatly increases the runtime. The notebook itself follows the general outline of:
+If the user wants to peform the preprocessing a global boolean value can be set within the jupyter notebook. 
 
+The jupyter notebook itself needs sufficient GPU processing power thus we only tested it on google collab. 
+Google collab allows the use of a GPU environment and therefore greatly increases the runtime. 
+
+All needed packages are either pre installed in collab or will be installed into environment when in use. 
+
+
+
+# Installation
+
+To install the jupyter notebook we recommend following these steps:
+	1. Download the entire compressed git repository. 
+	2. Decompress and uploaded it to your preferred location on your _google drive_. 
+	3. Access the notebook by going to : https://colab.research.google.com
+
+
+
+#How to use?
+All usage steps are explained within the notebook itself but to give a rough guideline.
+
+To make the use of the notebook easy we divided the notebook into three segments, where each segment begins with global parameter settings. There the user can specify which analysis pipeline should be peformed.
+For the srl classification we also included a neural network parameter settings list if the user whiches to further tweak the model. 
+	
 	1. Initilization
-	2. Animacy Detection
-		* Setting global variables
-		* Peform Preprocessing and Training
-		* Results
-	3. SRL Detection
-		* Setting global variables
-		* Peform Preprocessing and Training
-		* Results
+	2. Animacy
+		Global parameter settings
+		...
+		...
+	3. SRL
+		Global parameter settings
+		...
+		...
+		Neural network settings
+		...	
+		...
 
-
-# Installation/How to use?
-
-To use the jupyter notebook we recommend to download the entire compressed git repository. Next, it should be decompressed and uploaded to your preferred location on your _google drive_. Then the notebook should be accessible by going to : . All other usage steps are explained within the notebook itself.

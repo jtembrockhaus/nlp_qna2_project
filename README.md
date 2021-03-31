@@ -14,7 +14,7 @@ In general the framework of the codebase follows in parts two publications:
 Shi, Peng, and Jimmy Lin: *Simple bert models for relation extraction and semantic role labeling.*\
 Jahan, Labiba, Geeticka Chauhan, and Mark A. Finlayson. *"A new approach to animacy detection."*
 
-Because the codebase for both pipelines is too large in memory overhead and general code text we created one jupyter notebook for each pipeline. Both can be excuted individually:
+Because the codebase for both pipelines is too large in memory overhead and general code text we created one jupyter notebook for each pipeline. Both can be excuted individually.
 
 Animacy Pipeline:
 
@@ -24,8 +24,7 @@ Semantic Role Labeling Pipeline:
 
 	srl_classification.ipynb
 
-Due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
-If the user wants to peform the preprocessing a global boolean value can be set within the jupyter notebooks. 
+Furthermore due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
 
 The jupyter notebooks both need sufficient GPU processing power thus we only tested it on google collab. 
 Google collab allows the user to set a GPU environment which greatly increases runtime. 

@@ -15,4 +15,4 @@ The jupyter notebook needs sufficient GPU processing power thus we only tested i
 
 # Installation/How to use?
 
-To use the jupyter notebook we recommend to download the github file. Next it should be uploaded and unzipped in your preferred location on your _google drive_. Then the notebook should be accessible by going to : . All other usage steps are explained within the notebook itself.
+To use the jupyter notebook we recommend to download the entire compressed git repository. Next, it should be decompressed and uploaded to your preferred location on your _google drive_. Then the notebook should be accessible by going to : . All other usage steps are explained within the notebook itself.

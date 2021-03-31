@@ -24,7 +24,7 @@ Semantic Role Labeling Pipeline:
 
 	srl_classification.ipynb
 
-Furthermore due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
+Furthermore due to the high preprocessing overhead we created three python scripts which peform the preprocessing task for the fairytale and brown dataset. The preprocessed files are already included in the git repository. 
 
 The jupyter notebooks both need sufficient GPU processing power thus we only tested it on google collab. 
 Google collab allows the user to set a GPU environment which greatly increases runtime. 
@@ -42,7 +42,11 @@ To install the jupyter notebook we recommend following these steps:
 	2. Decompress and upload it to your preferred location on your *google drive*. 
 	3. Access the notebooks by going to : https://colab.research.google.com
 
+If the user wants to do the preprocessing again, the python installation needs the packages:
 
+	pickle
+	nltk
+	progressbar
 
 # How to use?
 
@@ -88,3 +92,8 @@ Semantic Role Labeling:
 		...	
 		...
 
+For the preprocessing of the files, the scripts can be execute by the command
+
+	python CorpusCreation_SRL_WallStreetJournalCorpus.py
+	
+A pickle file `data_dict_brown.pickle` similiar to the ones saved in /data/srl_detection/input/ will be saved in the working directory of the script. 

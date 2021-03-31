@@ -11,9 +11,8 @@ The main drive behind this project is to study the impact of animacy information
 
 In general the framework of the codebase follows in parts two publications:
 
-Shi, Peng, and Jimmy Lin: *Simple bert models for relation extraction and semantic role labeling.*
-
-Jahan, Labiba, Geeticka Chauhan, and Mark A. Finlayson. *"A new approach to animacy detection."*
+_ Shi, Peng, and Jimmy Lin: *Simple bert models for relation extraction and semantic role labeling.*
+_ Jahan, Labiba, Geeticka Chauhan, and Mark A. Finlayson. *"A new approach to animacy detection."*
 
 Due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
 If the user wants to peform the preprocessing a global boolean value can be set within the jupyter notebook. 

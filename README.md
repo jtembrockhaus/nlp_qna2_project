@@ -14,7 +14,20 @@ In general the framework of the codebase follows in parts two publications:
 Shi, Peng, and Jimmy Lin: *Simple bert models for relation extraction and semantic role labeling.*
 Jahan, Labiba, Geeticka Chauhan, and Mark A. Finlayson. *"A new approach to animacy detection."*
 
-The jupyter notebook needs sufficient GPU processing power thus we only tested it on google collab. Google collab allows the use of a GPU environment and therefore greatly increases the runtime.
+Due to the high preprocessing overhead we created three python scripts which peform the preprocessing task. The preprocessed files are already included in the git repository.
+If the user wants to peform the preprocessing a global boolean value can be set within the jupyter notebook. The jupyter notebook itself needs sufficient GPU processing power thus we only tested it on google collab. 
+Google collab allows the use of a GPU environment and therefore greatly increases the runtime. The notebook itself follows the general outline of:
+
+	1. Initilization
+	2. Animacy Detection
+		* Setting global variables
+		* Peform Preprocessing and Training
+		* Results
+	3. SRL Detection
+		* Setting global variables
+		* Peform Preprocessing and Training
+		* Results
+
 
 # Installation/How to use?
 
